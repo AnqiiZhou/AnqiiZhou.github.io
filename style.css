@@ -1,0 +1,538 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul,li,ol{
+    padding-inline-start: 0px;
+    padding-block-start: 0px;
+    margin-block-start: 0px;
+    margin-inline-start: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+	margin: 0;
+    padding: 0;
+ 
+    background-color: #FFE7F1;
+	
+	
+}
+.header{
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+
+    margin: 0 auto;
+	background:#f0ebf4
+	
+}
+.logo{
+    width: 10%;
+    float: left;
+    height: 70px;
+}
+.logo a  img {
+    height: 60px;
+    width: 60px;
+}
+.nav {
+ width: 60%;
+ margin-left: 10%;
+height: 60px;
+float: left;
+    
+}
+.nav ul  {
+
+width: 100%;
+height: 60px;
+
+
+}
+.nav ul li  {
+
+float: left;
+width: 15%;
+height: 60px;
+line-height: 60px;
+text-align: center;
+font-size: 20px;
+}
+.nav ul li a {
+color: black;
+font-weight: bold;
+}
+.nav ul li a:hover {
+color: red;
+}
+
+
+.app {
+    width: 100%;
+    text-align: center;
+    height:400px;
+   position: relative;
+   top: 25px;
+ 
+}
+ 
+.app .scroll {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    height: 400px;
+	margin:0 100px;
+}
+ 
+.app .scroll .img {
+    display: none;
+    width: 100%;
+    height: 400px;
+}
+ 
+.app .scroll .current {
+    display: block;
+}
+ 
+.scroll .lf {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    background-image: url('./images/icon/arrow.png');
+    background-position: -83px 0;
+    width: 41px;
+    height: 69px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+ 
+.scroll .lr {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    background-image: url('./images/icon/arrow.png');
+    background-position: -123px 0;
+    width: 41px;
+    height: 69px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+ 
+.dots {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width: 160px;
+}
+ 
+.dots>span {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 11px;
+    height: 11px;
+    border: 3px solid rgba(204, 204, 204, 0.2);
+    border-radius: 15px;
+    cursor: pointer;
+}
+ 
+.dots>span:not(:last-child) {
+    margin-right: 5px;
+}
+ 
+.dots .square {
+    background: #f46;
+}
+.icons{
+    width: 80%;
+    margin: 100px 100px;;
+    height: 100px;
+}
+.icon-item{
+   width: 25%;
+   float: left;
+   text-align: center;
+   font-size: 20px;
+}
+.icon-item img {
+   width: 30%;
+
+}
+.icon-item:hover img{
+	transform: scale(0.8);
+	
+}
+.title{
+    clear: both;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 2.5px solid skyblue;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.singers{
+    width: 80%;
+    clear: both;
+    margin: 50px auto;
+	margin-bottom:25px;
+}
+.singer-item{
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-size: 17.5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.singer-item a {
+   color: black;
+}
+.singer-item a:hover {
+   color: red;
+}
+.singer-item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+  
+}
+
+.btns button{
+    background-color: skyblue;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+.btns button:hover{
+    background-color: rgb(67, 202, 255);
+}
+.btns button a {
+  color: white;
+}
+.btns button a:hover {
+  color: red;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 17.5px;
+    background-color: skyblue;
+ 
+    clear: both;
+    
+}
+.main{
+    clear: both;
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+.singer-title{
+
+    font-size: 25px;
+    font-weight: bold;
+}
+.main table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.main table tr  {
+    width: 100%;
+    height: 75px;
+    
+}
+.main table tr td {
+    height: 75px;
+   
+}
+.main table tr td  a {
+   color: black;
+   
+}
+
+.song{
+    height: 75px;
+    line-height: 75px; 
+}
+.song a:hover{
+    color: red;
+}
+.song>a img{
+    height: 70px;
+    width: 70px;
+  vertical-align: middle;
+  margin: 0px 20px;
+}
+.song  img{
+    height: 70px;
+    width: 70px;
+  vertical-align: middle;
+  margin: 0px 20px;
+}
+.song-icon{
+    float: right;
+    height: 75px;
+    margin-right: 25%;
+}
+.song-icon img{
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+
+    margin: 0px 10px ;
+}
+.song-item{
+
+    width: 100%;
+    height: 300px;
+    
+
+}
+.song-left{
+    width: 30%;
+    height: 300px;
+    float: left;
+}
+.song-left img{
+    width: 100%;
+    height: 300px;
+}
+.song-right{
+
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-left: 5%;
+    line-height: 50px;
+}
+.song-right p {
+    color: grey;
+    font-size: 15px;
+}
+.text {
+    width: 20%;
+    margin-left: 5%;
+    float: left;
+}
+
+
+.person{
+    width: 40%;
+    height: 200px;
+    margin: 25px 0px;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 2.5px ;
+}
+.person-left{
+    width: 45%;
+    height: 200px;
+    float: left;
+}
+.person-left img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.person-right{
+    width: 55%;
+    height: 200px;
+    float: right;
+    line-height: 45px;
+
+}
+.person-right button{
+
+    width: 100px;
+    height: 40px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.right-person{
+    float: right;
+}
+.left-person{
+    float: left;
+}
+
+.space{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 17.5px;
+   
+    clear: both;
+    
+}
+
+/* ------------------------page_playerbar------------------------------- */
+.page_playerbar{
+	position:fixed;
+	bottom:0;left:0;
+	width:100%;
+	height:60px;
+	border-top:1px solid #dadadc;
+	background-color:#f6f6f8;
+	z-index:9;
+}
+
+.playerbar_playbtngroup{
+	float:left;
+	width:220px;
+	height:100%;
+	text-align:center;
+}
+.playerbar_playbtngroup>.btn{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	margin-left:16px;
+	border-radius:50%;
+	position:relative;
+	top:50%;left:0;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+	background-color:#c52f30;
+	color:#f7f7f7;
+	cursor:pointer;
+}
+.playerbar_playbtngroup>.btn.play{
+	width:44px;
+	height:44px;
+}
+.playerbar_playbtngroup>.btn>.fa{
+	position:relative;
+	top:50%;left:0;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+	font-size:1rem;
+	font-weight:lighter;
+}
+.playerbar_others{
+	float:right;
+	height:100%;
+}
+.playerbar_others>.volume{
+	position:relative;
+	top:50%;left:0;
+	margin:0 15px;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+}
+.playerbar_others>.volume>div{
+	display:inline-block;
+	margin:0 5px;
+}
+.playerbar_others>.volume>.mutebtn{
+	cursor:pointer;
+}
+.playerbar_others>.volume>.mutebtn>.fa{
+	font-weight:lighter;
+	font-size:1rem;
+	color:#656567;
+}
+.playerbar_others>.volume>.mutebtn:hover>.fa{
+	color:#111;
+}
+.playerbar_others>.volume>.progress,
+.playerbar_timeprogress>.progress{
+	position:relative;
+	top:50%;left:0;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+	width:150px;
+	height:6px;
+	border-radius:5px;
+	background-color:#cbcfd1;
+}
+.volume>.progress>.progress_curbar,
+.playerbar_timeprogress>.progress>.progress_curbar{
+	position:absolute;
+	top:0;left:0;
+	width:0;
+	height:100%;
+	border-radius:5px;
+	background-color:#e73d3d;
+}
+.volume>.progress>.progress_curbar>.curbar_arc,
+.playerbar_timeprogress>.progress>.progress_curbar>.curbar_arc{
+	position:absolute;
+	top:50%;left:100%;
+	width:14px;
+	height:14px;
+	border-radius:50%;
+	box-shadow:0 0 2px #bbb;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	background-color:#fff;
+	cursor:pointer;
+}
+.volume>.progress>.progress_curbar>.curbar_arc:after,
+.playerbar_timeprogress>.progress>.progress_curbar>.curbar_arc:after{
+	content:"";
+	position:absolute;
+	top:50%;left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	width:6px;
+	height:6px;
+	border-radius:50%;
+	background-color:#c52f30;
+}
+.volume>.progress>.progress_curbar>.curbar_arc:hover,
+.playerbar_timeprogress>.progress>.progress_curbar>.curbar_arc:hover{
+	box-shadow:0 0 5px rgba(0,0,0,0.3);
+}
+/* 音量小圆点的显示与隐藏 */ 
+.volume>.progress>.progress_curbar>.curbar_arc{
+	visibility:hidden;
+}
+.volume>.progress:hover>.progress_curbar>.curbar_arc{
+	visibility:visible;
+}
+/* 缓冲进度条 */
+.playerbar_timeprogress>.progress>.progress_cache{
+	position:absolute;
+	top:0;left:0;
+	width:0;
+	height:100%;
+	background-color:#ababab;
+	-webkit-transition:width ease 0.5s;
+	transition:width ease 0.5s;
+}
+.playerbar_timeprogress{
+	float:left;
+	width:calc(100% - 220px - 150px - 150px);
+	height:100%;
+}
+.playerbar_timeprogress>.progress{
+	width:85%;
+	margin:0 auto;
+}
+.playerbar_timeprogress>.progress>.time{
+	position:absolute;
+	top:50%;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+}
+.playerbar_timeprogress>.progress>.start{
+	right:101%;
+}
+.playerbar_timeprogress>.progress>.end{
+	left:101%;
+}
+
